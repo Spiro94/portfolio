@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:potrtfolio/Widget/CustomText.dart';
-import 'package:potrtfolio/Widget/Workbox.dart';
+import 'package:potrtfolio/Widget/workbox.dart';
 
 class Work extends StatefulWidget {
+  const Work({Key key}) : super(key: key);
+
   @override
   _WorkState createState() => _WorkState();
 }
@@ -75,22 +77,17 @@ class _WorkState extends State<Work> {
                             children: [
                               CircleAvatar(
                                 backgroundColor: Colors.pink,
-                                child: FaIcon(FontAwesomeIcons.laptopHouse,
+                                child: FaIcon(FontAwesomeIcons.dev,
                                     color: Colors.white),
                               ),
                               CircleAvatar(
                                 backgroundColor: Colors.red,
-                                child: FaIcon(FontAwesomeIcons.freeCodeCamp,
+                                child: FaIcon(FontAwesomeIcons.dev,
                                     color: Colors.white),
                               ),
                               CircleAvatar(
                                 backgroundColor: Colors.brown,
-                                child: FaIcon(FontAwesomeIcons.laptopCode,
-                                    color: Colors.white),
-                              ),
-                              CircleAvatar(
-                                backgroundColor: Colors.deepOrange,
-                                child: FaIcon(FontAwesomeIcons.coffee,
+                                child: FaIcon(FontAwesomeIcons.dev,
                                     color: Colors.white),
                               ),
                               CircleAvatar(

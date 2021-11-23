@@ -9,35 +9,33 @@ class WorkBox extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         WorkCustomData(
-          title: "Sandip Institute Of Engineering & Management Nashik",
+          title: "Capgemini | Senior Software Engineer",
           subTitle:
-              "I am currently pursuing Bachelor's Degree in Computer Science and Engineering \nat Savitribai Phule Pune University",
-          duration: "2016 - Present",
+              "- In charge of the creation, testing, deployment and maintenance of flutter widgets that make up client’s own design system"
+              "\n- In charge of developing a demo app implementing the design system with Clean Architecture that will be used as a guide for other teams seeking to use that system"
+              "\n- In charge of enhancing those widgets, upgrading their functionality and solve bugs",
+          duration: "Oct 2020 - Present",
         ),
         WorkCustomData(
-          title: "Flutter + Dart Development Winter Bootcamp",
+          title: "RENTEC Rentabilidad y Tecnología SAS | Software developer",
           subTitle:
-              "The Complete 2020 Flutter + Dart Winter Development Bootcamp at LCO Training Center,\nJaipur, Rajasthan (302017), Covering all the fundamental concepts for Flutter development",
-          duration: "Dec - 2019 to Feb - 2020",
+              "- In charge of the development of the selected requirements and also tasks like: "
+              "Planning, coding, initial tests and self-evaluation.\n   The above carried out in accordance with the PSP methodology",
+          duration: "March 2020 - Oct 2020",
         ),
         WorkCustomData(
-          title:
-              "Freelancer - Flutter | Dart Mobile App Developer | UI - UX Designer",
+          title: "IncubApp | Mobile Developer",
           subTitle:
-              "Flutter Developer and experienced programmer with an extensive history of designing and coding \nsolutions. Skilled in Google’s Flutter/Dart, Firebase App and Web development on a global scale. If you \nare looking for someone that you can trust that will complete your app on time and on budget, then \nplease contact me. I have been developing software for 1+ years and take pride in everything I do.",
-          duration: "Oct - 2019 to Nov - 2020",
+              "- Accountable for developing the screens, navigation and interaction of the application in the Flutter framework (Dart) based on the designs of the UX / UI graphic design team"
+              "\n-  Accountable for creating the functionality for the integration of AWS services such as Cognito and Lambda functions",
+          duration: "Jun 2019 - Jul 2021",
         ),
         WorkCustomData(
-          title: "Mentor at Contributor's Hack, 2020",
+          title: "Sistemas y Computadores S.A | Component Innovation Engineer",
           subTitle:
-              "Working as a mentor in HakinCode organization for Flutter CodeAsylums application \n where I can utilize my skills and be an asset to the organization",
-          duration: "Sep 2020 - Oct 2020",
-        ),
-        WorkCustomData(
-          title: "Flutter Intern at Mind Sports League | Gurgaon In",
-          subTitle:
-              "Building world class Poker Learning platform. Poker Sports League is India’s first poker league is to sportify the game of poker through a unique, team based format",
-          duration: "Nov - 2020 Present",
+              "- In charge of designing, developing and maintaining applications for internal company processes such as electronic payment and generation of payment formats"
+              "\n- Responsible for re-engineering existing services and applications in order to increase the productivity of the day-to-day activities of the operation",
+          duration: "Feb 2018 - March 2020",
         ),
       ],
     );

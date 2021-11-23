@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:potrtfolio/Widget/CustomText.dart';
 
 class About extends StatelessWidget {
+  const About({Key key}) : super(key: key);
+
   Widget technology(BuildContext context, String text) {
     return Row(
       children: [
         Icon(
           Icons.skip_next,
-          color: Color(0xff64FFDA).withOpacity(0.6),
+          color: const Color(0xff64FFDA).withOpacity(0.6),
           size: 14.0,
         ),
         SizedBox(
@@ -15,7 +17,7 @@ class About extends StatelessWidget {
         ),
         Text(
           text,
-          style: TextStyle(
+          style: const TextStyle(
             color: Color(0xff717C99),
             letterSpacing: 1.75,
           ),
@@ -29,7 +31,7 @@ class About extends StatelessWidget {
     var size = MediaQuery.of(context).size;
     return Container(
       height: size.height,
-      width:size.width - 100,
+      width: size.width - 100,
       child: Row(
         children: [
           //About me
@@ -77,21 +79,23 @@ class About extends StatelessWidget {
                   children: [
                     CustomText(
                       text:
-                          "Hello! I'm Tushar, a Freelancer based in Nashik, IN.\n\nI enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.\n\n",
+                          "Hello! I'm Daniel Villamizar, a software developer based in Santander, CO.\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
                       text:
-                          "Shortly currently, I am purshuing my Bachlor's degree in Computter science and Engineering at University of Pune, as well as doing freelancing where I work on a wide variety of interesting and meaningful projects on a daily basis.\n\n",
+                          "I'm an innovative and proactive Systems Engineer, with over three years of experience in developing"
+                          "mobile, desktop and web applications with great empathy for programming and learning new technologies."
+                          "\n\nA person with problem solving skills and good teamwork practices. Characterized by fluency"
+                          "in English that allows greater access to information and continuous updating of work skills\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       letterSpacing: 0.75,
                     ),
                     CustomText(
-                      text:
-                          "Here are a few technologies I've been working with recently:\n\n",
+                      text: "Here are a few technologies I've worked with:\n\n",
                       textsize: 16.0,
                       color: Color(0xff828DAA),
                       // fontWeight: FontWeight.w500,
@@ -103,7 +107,7 @@ class About extends StatelessWidget {
                 Container(
                   height: size.height * 0.15,
                   width: size.width,
-                  child: Wrap(  
+                  child: Wrap(
                     children: [
                       Container(
                         width: size.width * 0.20,
@@ -113,7 +117,6 @@ class About extends StatelessWidget {
                             technology(context, "Dart"),
                             technology(context, "Flutter"),
                             technology(context, "Firebase"),
-                            technology(context, "UI/UX (Adobe Xd)"),
                           ],
                         ),
                       ),
@@ -122,10 +125,11 @@ class About extends StatelessWidget {
                         height: size.height * 0.15,
                         child: Column(
                           children: [
-                            technology(context, "C/C++, Java."),
-                            technology(context, "HTML & (S)CSS"),
-                            technology(context, "MYSQL"),
-                            technology(context, "Git - Github"),
+                            technology(context, ".NET framework"),
+                            technology(context, "AWS"),
+                            technology(context, "Oracle & SQL Server"),
+                            technology(context, "Devops"),
+                            technology(context, "Github"),
                           ],
                         ),
                       )
@@ -170,7 +174,7 @@ class About extends StatelessWidget {
 }
 
 class CustomImageAnimation extends StatefulWidget {
-  CustomImageAnimation({Key key}) : super(key: key);
+  const CustomImageAnimation({Key key}) : super(key: key);
 
   @override
   _CustomImageAnimationState createState() => _CustomImageAnimationState();
@@ -221,14 +225,14 @@ class _CustomImageAnimationState extends State<CustomImageAnimation> {
             color: Colors.black54,
             child: Image(
               fit: BoxFit.cover,
-              image: AssetImage("images/pic1.jpeg"),
+              image: AssetImage("images/pic1.jpg"),
             ),
           ),
-          Container(
-            height: size.height / 2,
-            width: size.width / 5,
-            color: customImageColor,
-          ),
+          // Container(
+          //   height: size.height / 2,
+          //   width: size.width / 5,
+          //   color: customImageColor,
+          // ),
         ],
       ),
     );
